@@ -1,6 +1,6 @@
 {
   "name": "append-content",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny jQuery plugin for appending some content and adding a class.",
   "main": "lib/index.js",
   "scripts": {
