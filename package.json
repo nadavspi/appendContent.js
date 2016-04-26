@@ -1,0 +1,31 @@
+{
+  "name": "append-content",
+  "version": "1.0.0",
+  "description": "A tiny jQuery plugin for appending some content and adding a class.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "mkdir -p lib && babel src -d lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadavspi/appendContent.js.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "author": "Nadav Spiegelman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nadavspi/appendContent.js/issues"
+  },
+  "homepage": "https://github.com/nadavspi/appendContent",
+  "peerDependencies": {
+    "jquery": ">= 1.8.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0"
+  }
+}
